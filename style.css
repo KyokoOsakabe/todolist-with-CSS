@@ -1,0 +1,75 @@
+body {
+margin: 50px;
+font-family: 'Barlow', sans-serif;
+text-align: center;
+width: 500px;
+align-items: center;
+
+}
+h1 {
+    border-bottom: 3px solid gray;
+    width: 450px;
+    margin-left: 15px;
+}
+
+
+li {
+  cursor: pointer;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 100px;
+  }
+ul {
+    list-style-position: inside;
+}
+
+.done {
+    text-decoration: line-through;
+    color: pink;
+    }
+
+.todo {
+    color: skyblue;
+    font-size: 50px;
+    font-weight: bold;
+}
+button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.task{
+    font-size: 18px;
+    color: gray;
+}
+h3 {
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 5px;
+}
+
+.mention {
+    font-size: 15px;
+    color: gray;
+   margin: 0 auto;
+   padding-left: 0;
+   padding-right: 0;
+   line-height: 20px;
+
+}
+.todoList {
+    border: 10px solid skyblue;
+    border-radius: 20px;
+    
+
+}
+
+.delKey {
+    border: 2px solid darkgray;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+}
